@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OCTO.uz Payment Gateway\n"
+"POT-Creation-Date: 2019-01-09 14:45+0500\n"
+"PO-Revision-Date: 2019-01-09 14:50+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: octouz.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: octouz.php:47
+msgid "[OCTO.uz] Pay using Credit Card"
+msgstr "[OCTO.uz] Оплата кредитной картой"
+
+#: octouz.php:48
+msgid "Pay using Credit Card"
+msgstr "Оплата кредитной картой"
+
+#: octouz.php:70
+msgid "OCTO.uz Settings"
+msgstr "Параметры OCTO.uz"
+
+#: octouz.php:73
+msgid "Configure Payment Gateway"
+msgstr "Настройка параметров платежа"
+
+#: octouz.php:76
+msgid "Your Notification URL is:"
+msgstr "URL Уведомлений для OCTO.uz:"
+
+#: octouz.php:91 octouz.php:93
+msgid "Enabled"
+msgstr "Вкл"
+
+#: octouz.php:97
+msgid "Merchant ID"
+msgstr "ID Мерчанта"
+
+#: octouz.php:99
+msgid ""
+"Check your Merchant ID under &quot;Integration&quot; Tab at merchant.octo.uz"
+msgstr ""
+"Вы можете найти ID Мерчанта во вкладке &quot;Интеграция&quot; личного "
+"кабинета OCTO.uz (merchant.octo.uz)"
+
+#: octouz.php:103
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+#: octouz.php:105
+msgid ""
+"Generate new Secret Key under &quot;Integration&quot; Tab at merchant.octo.uz"
+msgstr ""
+"Сгенерируйте секретный ключ во вкладке &quot;Интеграция&quot; личного "
+"кабинета OCTO.uz (merchant.octo.uz)"
+
+#: octouz.php:109
+msgid "Live Payments"
+msgstr "Реальные платежи"
+
+#: octouz.php:111
+msgid "Enable Live Payments"
+msgstr "Отключает тестовый режим и переводит систему в бой"
+
+#: octouz.php:115
+msgid "Payment Currency"
+msgstr "Валюта платежей в системе OCTO.uz"
+
+#: octouz.php:125
+msgid "Convert currency using WOOCS"
+msgstr "Конвертация валют используя WOOCS"
+
+#: octouz.php:127
+msgid ""
+"Convert currency using WOOCS (WooCommerce Currency Switcher) if the payment "
+"currency isnt the same as your site's currency"
+msgstr ""
+"Конвертировать валюту используя WOOCS (WooCommerce Currency Switcher), если "
+"валюта заказа отличается от валюты OCTO.uz"
+
+#: octouz.php:141
+#, php-format
+msgid "ORDER - #%1$s"
+msgstr "ЗАКАЗ № - %1$s"
+
+#: octouz.php:194
+msgid "Pay"
+msgstr "Оплатить"
+
+#: octouz.php:195
+msgid "Cancel Payment"
+msgstr "Отмена платежа"
+
+#: octouz.php:225
+msgid "You're almost done. Press the &quot;Pay&quot; button to proceed."
+msgstr ""
+"Мы почти закончили. Нажмите на кнопку &quot;Оплатить&quot; для продолжения."
+
+#. Plugin Name of the plugin/theme
+msgid "OCTO.uz Payment Gateway"
+msgstr "Платёжный сервис OCTO.uz"
+
+#. Plugin URI of the plugin/theme
+msgid "https://octo.uz"
+msgstr "https://octo.uz"
+
+#. Description of the plugin/theme
+msgid "OCTO.uz Payment Gateway for WooCommerce"
+msgstr "OCTO.uz Payment Gateway for WooCommerce"
+
+#. Author of the plugin/theme
+msgid "support@octo.uz"
+msgstr "support@octo.uz"

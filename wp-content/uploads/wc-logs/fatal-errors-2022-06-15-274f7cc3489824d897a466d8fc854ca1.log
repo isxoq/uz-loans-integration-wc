@@ -1,0 +1,33 @@
+2022-06-15T02:01:56+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Gateway_Special::settings() in C:\OpenServer\domains\dokon\wp-content\plugins\paymart\paymart.php:87
+Stack trace:
+#0 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(97): WC_Gateway_Special->__construct()
+#1 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#2 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#3 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-woocommerce.php(892): WC_Payment_Gateways::instance()
+#4 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\wc-template-functions.php(73): WooCommerce->payment_gateways()
+#5 C:\OpenServer\domains\dokon\wp-includes\class-wp-hook.php(307): wc_template_redirect()
+#6 C:\OpenServer\domains\dokon\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C в C:\OpenServer\domains\dokon\wp-content\plugins\paymart\paymart.php на строке 87
+
+2022-06-15T02:02:09+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Gateway_Special::settings() in C:\OpenServer\domains\dokon\wp-content\plugins\paymart\paymart.php:87
+Stack trace:
+#0 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(97): WC_Gateway_Special->__construct()
+#1 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#2 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#3 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-woocommerce.php(892): WC_Payment_Gateways::instance()
+#4 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\wc-template-functions.php(73): WooCommerce->payment_gateways()
+#5 C:\OpenServer\domains\dokon\wp-includes\class-wp-hook.php(307): wc_template_redirect()
+#6 C:\OpenServer\domains\dokon\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C в C:\OpenServer\domains\dokon\wp-content\plugins\paymart\paymart.php на строке 87
+
+2022-06-15T02:02:14+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Gateway_Special::settings() in C:\OpenServer\domains\dokon\wp-content\plugins\paymart\paymart.php:87
+Stack trace:
+#0 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(97): WC_Gateway_Special->__construct()
+#1 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#2 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#3 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\class-woocommerce.php(892): WC_Payment_Gateways::instance()
+#4 C:\OpenServer\domains\dokon\wp-content\plugins\woocommerce\includes\wc-template-functions.php(73): WooCommerce->payment_gateways()
+#5 C:\OpenServer\domains\dokon\wp-includes\class-wp-hook.php(307): wc_template_redirect()
+#6 C:\OpenServer\domains\dokon\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C в C:\OpenServer\domains\dokon\wp-content\plugins\paymart\paymart.php на строке 87
+
